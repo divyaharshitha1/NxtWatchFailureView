@@ -1,0 +1,49 @@
+@media (max-width: 767px) {
+  .react-player {
+    width: 100% !important;
+    height: 50vh !important;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .react-player {
+    width: 100% !important;
+    height: 70vh;
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.description {
+  padding-left: 40px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.main-frame-container {
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  .light {
+    background-color: #ffffff;
+  }
+  .dark {
+    background-color: #231f20;
+  }
+  .main-frame-container {
+    display: flex;
+    height: 100vh;
+  }
+  .content {
+    overflow: auto;
+    width: 100%;
+  }
+  .content::-webkit-scrollbar {
+    display: none;
+  }
+}
